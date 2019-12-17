@@ -1,0 +1,15 @@
+{
+  "name": "challenges",
+  "version": "1.0.0",
+  "description": "A project that includes coding challenges.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --rootDir ./test",
+    "docs": "jsdoc s"
+  },
+  "author": "Jonathan Richer dit Laflèche <jonathan.rdl@outlook.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
