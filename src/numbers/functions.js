@@ -60,7 +60,7 @@ const simplify = exports.simplify = (num, den) => {
 
     const commonFactors = [];
 
-    if (numFactors.length > denFactors) {
+    if (numFactors.length > denFactors.length) {
         for (const factor of denFactors) {
             for (let i = numFactors.length - 1; i >= 0; i--) {
                 if (factor === numFactors[i]) {
